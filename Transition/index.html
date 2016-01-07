@@ -1,0 +1,42 @@
+<!doctype=html>
+<html lang="eng">
+
+<head>
+	<style>
+		@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+		body{
+			text-align:center;
+			font-family: 'Open Sans', sans-serif;
+		}
+		#expand_this{
+		overflow:hidden;
+		webkit-transition: height 1s;
+		moz-transition: height 1s;
+		transition: height 1s;
+		height: 20px;
+		}
+		#expand_this li{
+			height:20px;
+		}
+		#pop_out{
+			
+		}
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+	<ul id="expand_this">
+		<li>menu</li>
+		<li>menu item 1</li>
+		<li>menu item 2</li>
+		<li>menu item 3</li>
+		<li>menu item 4</li>
+	</ul>
+
+	<div id="pop_out">
+		This text should pop out from the bottom!
+	</div>
+</body>
+
+</html>
